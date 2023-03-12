@@ -4,6 +4,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello World");
+        Console.Write("Введите имя: ");
+        string name = Console.ReadLine();
+        Console.WriteLine($"Привет, {name}");
+        
     }
 }
